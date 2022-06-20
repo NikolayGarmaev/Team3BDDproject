@@ -1,11 +1,11 @@
 package pages;
 
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.WebDriverManager;
 
-public class LoginPage {
-    public LoginPage() {
+public class SoftSkillsDashboardPage {
+    private static SoftSkillsDashboardPage page;
+    public SoftSkillsDashboardPage(){
         PageFactory.initElements(WebDriverManager.getDriver(), this);
     }
 
